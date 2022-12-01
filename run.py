@@ -1,12 +1,13 @@
 import sys
 
-from days import day_0
+from days import day_0, day_1
 
 if __name__ != 'main':
     pass
 
 ALL_DAYS = [
     day_0,
+    day_1
 ]
 
 

@@ -1,13 +1,14 @@
 import sys
 
-from days import day_0, day_1
+from days import day_0, day_1, day_2
 
 if __name__ != 'main':
     pass
 
 ALL_DAYS = [
     day_0,
-    day_1
+    day_1,
+    day_2,
 ]
 
 
@@ -38,6 +39,6 @@ def run_all_days():
 if (len(sys.argv) > 1 and
     sys.argv[1].isdigit()):
 
-    run_day(int(sys.argv[1]))
+    run_day(int(sys.argv[1], 10))
 else:
     run_all_days()

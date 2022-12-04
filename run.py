@@ -1,6 +1,6 @@
 import sys
 
-from days import day_0, day_1, day_2, day_3
+from days import day_0, day_1, day_2, day_3, day_4
 
 if __name__ != 'main':
     pass
@@ -10,6 +10,7 @@ ALL_DAYS = [
     day_1,
     day_2,
     day_3,
+    day_4,
 ]
 
 

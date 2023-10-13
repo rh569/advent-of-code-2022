@@ -25,6 +25,7 @@ from days import (
     day_21,
     day_22,
     day_23,
+    day_24,
 )
 
 if __name__ != "__main__":
@@ -55,6 +56,7 @@ ALL_DAYS = [
     day_21,
     day_22,
     day_23,
+    day_24,
 ]
 
 
